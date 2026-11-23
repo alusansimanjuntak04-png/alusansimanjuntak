@@ -1,0 +1,285 @@
+######## Bagian1 / java StringManipulation
+=== BASIC STRING OPERATIONS ===
+Original: '  Hello World! Welcome to Java Programming  '
+Length: 44
+Trimmed: 'Hello World! Welcome to Java Programming'
+Uppercase: '  HELLO WORLD! WELCOME TO JAVA PROGRAMMING  '
+Lowercase: '  hello world! welcome to java programming  '
+
+=== SUBSTRING & INDEXING ===
+Character at index 5: 'l'
+Substring (7-12): ' Worl'
+Index of 'World': 8
+Last index of 'a': 36
+
+=== REPLACEMENT & COMPARISON ===
+Replace 'Java' with 'Python': '  Hello World! Welcome to Python Programming  '
+Contains 'Programming': true
+Starts with 'Hello': false
+Ends with 'Programming': false
+
+=== SPLIT & JOIN ===
+Number of words: 6
+Words: [Hello] [World!] [Welcome] [to] [Java] [Programming] 
+
+=== STRING BUILDER ===
+Reversed: gnimmargorP avaJ nraeL
+
+######## Bagian1 / java StringManipulationModifikasi
+=== BASIC STRING OPERATIONS ===
+Original: '  Hello World! Welcome to Java Programming  '
+Length: 44
+Trimmed: 'Hello World! Welcome to Java Programming'
+Uppercase: '  HELLO WORLD! WELCOME TO JAVA PROGRAMMING  '
+Lowercase: '  hello world! welcome to java programming  '
+
+=== SUBSTRING & INDEXING ===
+Character at index 5: 'l'
+Substring (7-12): ' Worl'
+Index of 'World': 8
+Last index of 'a': 36
+
+=== REPLACEMENT & COMPARISON ===
+Replace 'Java' with 'Python': '  Hello World! Welcome to Python Programming  '
+Contains 'Programming': true
+Starts with 'Hello': false
+Ends with 'Programming': false
+
+=== SPLIT & JOIN ===
+Number of words: 6
+Words: [Hello] [World!] [Welcome] [to] [Java] [Programming] 
+
+=== STRING BUILDER ===
+Reversed: gnimmargorP avaJ nraeL
+
+=== DEMO P1: STARTSWITH ===
+text.startsWith("Hello")           : false
+text.trim().startsWith("Hello")    : true
+text.startsWith("Hello", 2)        : true
+
+=== DEMO P2: STRING vs STRINGBUILDER ===
+String setelah concat() tanpa assignment : Java
+String setelah di-assign ulang            : Java Programming
+StringBuilder setelah append()            : Java Programming
+
+=== DEMO P3: AMBIL KATA 'Java' ===
+Cara 1 (indexOf + substring): Java
+Cara 2 (split, indeks ke-4)  : Java
+
+=== MODIFIKASI 1: KATA DENGAN PANJANG > 4 ===
+Words (> 4 chars): [Hello] [World!] [Welcome] [Programming] 
+
+=== MODIFIKASI 2: JUMLAH HURUF VOKAL ===
+Jumlah huruf vokal: 12
+
+######## Bagian2 / java FileIOExample
+Data berhasil ditulis ke data.txt
+
+=== MEMBACA FILE ===
+Line 1: Alice,25,Computer Science
+Line 2: Bob,30,Mathematics
+Line 3: Charlie,22,Physics
+Line 4: Diana,28,Chemistry
+File berhasil dibaca
+
+=== MEMPROSES FILE ===
+Processed: ALICE,25,Computer Science,UNDERGRADUATE
+Processed: BOB,30,Mathematics,GRADUATE
+Processed: CHARLIE,22,Physics,UNDERGRADUATE
+Processed: DIANA,28,Chemistry,GRADUATE
+File berhasil diproses dan disimpan sebagai output.txt
+
+######## Bagian2 / java FileIOExampleModifikasi
+Data berhasil ditulis ke data.txt
+
+=== MEMBACA FILE ===
+Line 1: Alice,25,Computer Science
+Line 2: Bob,30,Mathematics
+Line 3: Charlie,22,Physics
+Line 4: Diana,28,Chemistry
+File berhasil dibaca
+
+=== MEMPROSES FILE ===
+Processed: ALICE,25,Computer Science,UNDERGRADUATE
+Processed: BOB,30,Mathematics,GRADUATE
+Processed: CHARLIE,22,Physics,UNDERGRADUATE
+Processed: DIANA,28,Chemistry,GRADUATE
+File berhasil diproses dan disimpan sebagai output.txt
+
+=== RATA-RATA USIA ===
+Rata-rata usia dari 4 data: 26.25
+
+=== DEMO P2: FILE TIDAK DITEMUKAN ===
+
+=== MEMBACA FILE ===
+File tidak ditemukan: file_tidak_ada.txt (No such file or directory)
+
+=== DEMO P3: OVERWRITE vs APPEND ===
+Data berhasil ditulis ke data.txt
+
+Data ditambahkan (append) ke data.txt: Eka,27,Biology
+
+Data ditambahkan (append) ke data.txt: Fajar,abc,Biology
+
+--- Setelah data ditambahkan (append) ---
+
+=== MEMBACA FILE ===
+Line 1: Alice,25,Computer Science
+Line 2: Bob,30,Mathematics
+Line 3: Charlie,22,Physics
+Line 4: Diana,28,Chemistry
+Line 5: Eka,27,Biology
+Line 6: Fajar,abc,Biology
+File berhasil dibaca
+
+=== MEMPROSES FILE ===
+Processed: ALICE,25,Computer Science,UNDERGRADUATE
+Processed: BOB,30,Mathematics,GRADUATE
+Processed: CHARLIE,22,Physics,UNDERGRADUATE
+Processed: DIANA,28,Chemistry,GRADUATE
+Processed: EKA,27,Biology,GRADUATE
+Baris dilewati (usia bukan angka): 'Fajar,abc,Biology' -> For input string: "abc"
+File berhasil diproses dan disimpan sebagai output.txt
+
+=== RATA-RATA USIA ===
+Baris diabaikan pada perhitungan rata-rata: 'Fajar,abc,Biology'
+Rata-rata usia dari 5 data: 26.40
+
+######## Bagian3 / java TextProcessor
+Sample file created: source.txt
+File processing completed!
+  - Input: source.txt
+  - Output: processed.txt
+  - Report: report.txt
+
+=== PROCESSING REPORT ===
+=== TEXT PROCESSING REPORT ===
+Total Lines: 5
+Total Words: 27
+Total Characters: 192
+Average Words per Line: 5.4
+
+CHARACTER FREQUENCY:
+e: 16
+a: 15
+n: 15
+i: 13
+r: 13
+s: 11
+t: 11
+m: 9
+o: 9
+p: 9
+c: 7
+g: 6
+u: 6
+d: 5
+f: 5
+l: 5
+k: 2
+b: 1
+h: 1
+j: 1
+q: 1
+v: 1
+w: 1
+x: 1
+y: 1
+
+######## Bagian3 / java TextProcessorModifikasi
+Sample file created: source.txt
+File processing completed!
+  - Input: source.txt
+  - Output: processed.txt
+  - Report: report.txt
+
+=== PROCESSING REPORT ===
+=== TEXT PROCESSING REPORT ===
+Total Lines: 5
+Total Words: 27
+Total Characters: 192
+Total Sentences: 5
+Average Words per Line: 5.4
+
+MOST FREQUENT WORD(S):
+and: 2
+is: 2
+makes: 2
+programming: 2
+
+CHARACTER FREQUENCY:
+e: 16
+a: 15
+n: 15
+i: 13
+r: 13
+s: 11
+t: 11
+m: 9
+o: 9
+p: 9
+c: 7
+g: 6
+u: 6
+d: 5
+f: 5
+l: 5
+k: 2
+b: 1
+h: 1
+j: 1
+q: 1
+v: 1
+w: 1
+x: 1
+y: 1
+
+=== DEMO P2: SPLIT(" ") vs SPLIT("\\s+") ===
+split(" ")     -> jumlah elemen: 6 [Java, , programming	is, , , fun]
+split("\\s+") -> jumlah elemen: 4 [Java, programming, is, fun]
+
+Sample CSV created: students.csv
+
+=== CSV SUMMARY ===
+=== CSV SUMMARY STATISTICS ===
+File          : students.csv
+Total Rows    : 6
+Skipped Rows  : 0
+Total Columns : 4
+
+--- Column: Name ---
+Type    : text
+Count   : 6
+Missing : 0
+Unique  : 6
+Mode    : Alice (1x)
+
+--- Column: Age ---
+Type    : numeric
+Count   : 6
+Missing : 0
+Sum     : 125.00
+Mean    : 20.83
+Min     : 19.00
+Max     : 23.00
+Median  : 20.50
+Std Dev : 1.47
+
+--- Column: Score ---
+Type    : numeric
+Count   : 5
+Missing : 1
+Sum     : 409.75
+Mean    : 81.95
+Min     : 66.00
+Max     : 92.25
+Median  : 85.50
+Std Dev : 10.31
+
+--- Column: Major ---
+Type    : text
+Count   : 6
+Missing : 0
+Unique  : 3
+Mode    : Informatika (3x)
+

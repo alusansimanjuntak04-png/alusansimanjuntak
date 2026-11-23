@@ -1,0 +1,41 @@
+=== CSV SUMMARY STATISTICS ===
+File          : students.csv
+Total Rows    : 6
+Skipped Rows  : 0
+Total Columns : 4
+
+--- Column: Name ---
+Type    : text
+Count   : 6
+Missing : 0
+Unique  : 6
+Mode    : Alice (1x)
+
+--- Column: Age ---
+Type    : numeric
+Count   : 6
+Missing : 0
+Sum     : 125,00
+Mean    : 20,83
+Min     : 19,00
+Max     : 23,00
+Median  : 20,50
+Std Dev : 1,47
+
+--- Column: Score ---
+Type    : numeric
+Count   : 5
+Missing : 1
+Sum     : 409,75
+Mean    : 81,95
+Min     : 66,00
+Max     : 92,25
+Median  : 85,50
+Std Dev : 10,31
+
+--- Column: Major ---
+Type    : text
+Count   : 6
+Missing : 0
+Unique  : 3
+Mode    : Informatika (3x)
